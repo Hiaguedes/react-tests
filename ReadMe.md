@@ -14,6 +14,26 @@ Unit tests should be independent of one another. The simplest way to achieve thi
 
 Irvine, Daniel. Mastering React Test-Driven Development: Build rock-solid, well-tested web apps with React, Redux and GraphQL (p. 32). Packt Publishing. Edição do Kindle. 
 
-If you skip the refactoring phase, your code quality will deteriorate.
+The rule "more haste; less speed" applies to coding, just as in many other areas of life. If you skip the refactoring phase, your code quality will deteriorate. If you develop a habit of skipping refactoring,your code base will soon become difficult to work with.
 
-Irvine, Daniel. Mastering React Test-Driven Development: Build rock-solid, well-tested web apps with React, Redux and GraphQL (p. 35). Packt Publishing. Edição do Kindle. 
+A good test has three distinct sections:
+
+- Arrange: Sets up test dependencies
+- Act: Executes production code under test
+- Assert: Checks expectations are met
+
+ A great test is not just good but is also the following:
+
+- Short
+- Descriptive
+- Independent of other tests
+- Has no side-effects
+
+Irvine, Daniel. Mastering React Test-Driven Development: Build rock-solid, well-tested web apps with React, Redux and GraphQL (p. 37). Packt Publishing. Edição do Kindle.
+
+Ciclo do test
+
+1- Escrever um teste que falhe (escrever um teste que descreva alguma funcionalidade que você quer ver funcionando, executar o teste e ver ele falhando, senao falha é por que não é um bom teste, volte e faça de novo)
+2- Fazer passar(faça o teste ficar verde, faça uma coisa simples funcionar, sinta-se livre de fazer bagunça, você irá limpar depois)
+3- Refatorar o seu código (pare, desacelere e resista a vontade de mover para a próxima feature, trabalhe duro para fazer seu código funcionar, os dois códigos tanto de produção quanto de teste devem passar o mais limpo possível)
+1- ...
