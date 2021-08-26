@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Appointment from './Appoitment.component';
+import Appointment from './Appointment.component';
 
 describe('Appointment', () => {
     let component;
